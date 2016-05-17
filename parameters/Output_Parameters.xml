@@ -1,0 +1,18 @@
+<Output>
+  <Plots>
+     <sky_projection>False</sky_projection>
+     <Tx_Lx>True</Tx_Lx>
+     <HEALPix_sky_projection>True</HEALPix_sky_projection>
+        <nside>65536</nside>
+        <xsize>480</xsize>
+        <resolution>0.25</resolution>
+        <resolution_unit_degree>False</resolution_unit_degree>
+        <log_scale>True</log_scale>
+        <surface_brightness_unit_arcmin2>True</surface_brightness_unit_arcmin2>
+        <HEALPix_module>All</HEALPix_module>
+        <HEALPix_Cartesian>False</HEALPix_Cartesian>
+        <HEALPix_Graticule>True</HEALPix_Graticule>
+  </Plots>
+  <Report>True</Report>
+</Output>
+

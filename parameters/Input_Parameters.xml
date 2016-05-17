@@ -1,0 +1,25 @@
+<Input_Parameters>
+  <Auto_mode>False</Auto_mode>
+  <Features>
+     <Flux_Unit>ergs</Flux_Unit>
+  </Features>
+  <Intrinsic_T-L_correlation>
+     <rTL_correlation>0.0</rTL_correlation>
+  </Intrinsic_T-L_correlation>
+  <Limits>
+    <F_limit>2.5e-14</F_limit>
+    <Mass_limit>1.0e13</Mass_limit>
+  </Limits>
+  <XRay_band>
+    <XRay_band_Option>3</XRay_band_Option>
+  </XRay_band>
+  <Models>
+     <Lxm_model>Mantz_et_al_2016</Lxm_model>
+     <Txm_model>Mantz_et_al_2016</Txm_model>
+     <Surface_Brightness>beta</Surface_Brightness>
+        <SB_beta>0.666</SB_beta>
+  </Models>
+  <Input_File>
+     <File_name>XCAT_Aardvark_1.0.fit</File_name>
+  </Input_File>
+</Input_Parameters>

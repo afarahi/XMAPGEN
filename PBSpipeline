@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -S /bin/sh
+#PBS -N Chandra_MAP_GENERATION
+#PBS -l procs=2,mem=8gb,walltime=04:00:00:00,qos=preempt
+#PBS -A mdatascienceteam_flux
+#PBS -V
+#PBS -joe
+#PBS -q flux
+
+echo "started: python calculation `date`"
+echo "PBS script running on nonde `hostname`"
+echo "  "
+
+
+cd $PBS_O_WORKDIR
+
+bash pipeline.bash
+
+echo "  "
+
+echo "finished: Chandra Map is created  `date`" 
+
+

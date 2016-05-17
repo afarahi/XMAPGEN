@@ -1,0 +1,26 @@
+Possible Choises:
+
+<XRay_band_Option>
+1  \\ [0.5 - 2.0] soft band
+<XRay_band_Option>
+
+
+<Lx_parameters>
+Rozo_et_al_2012
+Rozo_1204_6305
+user
+</Basic_parameters>
+
+
+<Tx_parameters>
+Henry_et_al_2009
+user
+</Tx_conversion_parameters>
+
+
+<HEALPix_module>
+Count
+Simple
+All
+</HEALPix_module>
+

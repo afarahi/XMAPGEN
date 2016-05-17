@@ -1,0 +1,11 @@
+<Correction_Parameters>
+  <K_correction>1.0</K_correction>
+  <K-correction-factors-for_0.5-2.0_keV_band>
+     <K1fac_1>-0.209</K1fac_1>
+     <K1fac_2>1.181</K1fac_2>
+     <K1fac_3>-0.391</K1fac_3>
+     <K2fac_1>-0.0988</K2fac_1>
+     <K2fac_2>-0.0924</K2fac_2>
+     <K2fac_3>0.0851</K2fac_3>
+  </K-correction-factors-for_0.5-2.0_keV_band>
+</Correction_Parameters>

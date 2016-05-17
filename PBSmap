@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -S /bin/sh
+#PBS -N XXL_MAP_GENERATION
+#PBS -l procs=1,mem=4gb,walltime=00:00:05:00,qos=preempt
+#PBS -A mdatascienceteam_flux
+#PBS -V
+#PBS -joe
+#PBS -q flux
+
+echo "started: python calculation `date`"
+echo "PBS script running on nonde `hostname`"
+echo "  "
+
+
+cd /home/aryaf/Pipelines/LargeStatSelectionFunction/XCat-v0.0.4-XCS/ 
+
+#IIND=40
+#fname=$(printf 'XCAT_Aardvark_1.0_%i.fit' $IIND)
+
+
+python main.py 1 $fname $realization_id
+python main.py 2 $fname $realization_id
+rm Catalog/Output_File/$fname
+
+echo "  "
+
+echo "finished: XCS Map is created  `date`" 
+
+

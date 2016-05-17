@@ -1,0 +1,13 @@
+<Cosmological_Parameters>
+  <Cosmology>
+     <Hubble_Parameter>0.72</Hubble_Parameter>
+     <Omega_DE>0.77</Omega_DE>
+     <Omega_M>0.23</Omega_M>
+     <Omega_b>0.043</Omega_b>
+     <Omega_R>0.0</Omega_R>
+     <Omega_k>0.0</Omega_k>
+     <sigma_8>0.83</sigma_8>
+     <w>-1.0</w>
+     <ns>0.96</ns>
+  </Cosmology>
+</Cosmological_Parameters>

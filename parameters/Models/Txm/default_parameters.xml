@@ -1,0 +1,8 @@
+<model_Parameters>
+  <M_p>6e14</M_p>
+  <z_p>0.35</z_p>
+  <a>8.84</a>
+  <M_slope>0.66</M_slope>
+  <E_slope>0.61</E_slope>  
+  <sig>0.13</sig>
+</model_Parameters>

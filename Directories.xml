@@ -1,0 +1,9 @@
+<Directories>
+  <Input>
+     <Halo_dir>/scratch/physdoeproject_fluxoe/aryaf/Chandra/halo_catalogs/</Halo_dir>
+     <Realization_id>5</Realization_id>
+  </Input>
+  <Output>
+     <SB_Map_dir>/scratch/physdoeproject_fluxoe/aryaf/Chandra/surface_brightness_maps/</SB_Map_dir>
+  </Output>
+</Directories>
