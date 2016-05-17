@@ -5,5 +5,6 @@
   </Input>
   <Output>
      <SB_Map_dir>/scratch/physdoeproject_fluxoe/aryaf/Chandra/surface_brightness_maps/</SB_Map_dir>
+     <Event_Map_dir>/scratch/physdoeproject_fluxoe/aryaf/Chandra/event_maps/</Event_Map_dir>
   </Output>
 </Directories>

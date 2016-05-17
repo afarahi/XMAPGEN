@@ -95,3 +95,22 @@ def makingXRayRealization():
    print "Eplased time to save map: ", eTime, " s"
 
 
+def makingEventMap():
+    
+    import sys; import time
+    from XCat_Objects import Event_Map_Class
+
+    Print_logo()
+
+    ##################################################################
+    #@@@@ STEP 1 [Initializing the event map]
+    #@@@@ 
+    sTime = time.time()
+    EMap = Event_Map_Class(fname=sys.argv[2], i=1, j=1, ks=40)
+    eTime = time.time()-sTime
+    print "Eplased time to initialize event map: ",eTime, " s"
+
+
+
+
+

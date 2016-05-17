@@ -58,6 +58,12 @@ except ImportError:
                   category=ImportWarning)
 
 
+try:
+    from XCat_Event_Map_Class import Event_Map_Class
+except ImportError:
+    warnings.warn("Warning: Cannot import ...",
+                  category=ImportWarning)
+
 
 try:
     from XCat_Plots_Class         import Plots_Class 

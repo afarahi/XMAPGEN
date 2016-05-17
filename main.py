@@ -19,19 +19,22 @@ if FLUX_MODE:
    matplotlib.use('Agg')
 
 from mainPipeline import makingXRayCatalogs,\
-                         makingXRayRealization
+                         makingXRayRealization,\
+                         makingEventMap
 
 print "(1) HALOS MODE"
-print "(2) MAP MODE"
-print "(3) TEST MODE"
+print "(2) SB MAP MODE"
+print "(3) EVENT MAP MODE"
 
 ans = int(sys.argv[1]) #int(raw_input("Please enter the mode number : "))
 
 if (ans == 1):
-   makingXRayCatalogs()
+    makingXRayCatalogs()
 if (ans == 2):
-   makingXRayRealization()
-#if (ans == 3):
-#    test_tasks()
+    makingXRayRealization()
+if (ans == 3):
+    makingEventMap()
 else:
     pass
+
+
